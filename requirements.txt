@@ -1,0 +1,4 @@
+fastapi[all]
+nltk
+PyPDF2
+python-docx

@@ -1,0 +1,19 @@
+create an API endpoint with POST request.
+accept resume-text, resume-file, job-description-text, job-description-file
+http://hostname:port/analyze
+
+extract sentences from job-description-text
+sanitise job-description-text - remove special characters
+remove stop words from the sentence
+extract key words from each sentence
+extract root words from key words into a list
+
+extract blocks from resume-text
+extract sentences from resume-text
+sanitise resume-text
+remove stop words
+
+search for the root key words in the resume text
+if found remove the matched word from the list
+
+return unmatched words as response
